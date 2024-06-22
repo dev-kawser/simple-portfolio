@@ -43,6 +43,7 @@ nav {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+  font-weight: 500;
 }
 
 a {
@@ -60,6 +61,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  font-weight: 600;
 }
 
 .logo:hover {
@@ -309,8 +311,8 @@ section {
 }
 
 .section__pic-container {
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   margin: auto 0;
 }
 
@@ -335,7 +337,7 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: left;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
@@ -366,8 +368,11 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .project-title {
